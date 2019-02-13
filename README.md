@@ -1,9 +1,9 @@
 # Bad Design on osu-web
-Ganendra Afrasya - 05111640000071 - HIC-A
+Ganendra Afrasya - 05111640000071 - HCI-A
 
 ### Background
 
-osu-web is one of [osu!](https://osu.ppy.sh/) open source project from osu!dev. Since it's open source project and it's a transition phase between [old page](https://old.ppy.sh/), and new page with new design language created by [flyte](https://osu.ppy.sh/users/3103765), lot of page and design is neither half-implemented nor not follow the new design language. Here some of them that I found and I propose the change
+[osu-web](https://github.com/ppy/osu-web) is one of [osu!](https://osu.ppy.sh/) open source project from osu!dev. Since it's open source project and it's on transition phase between [old page](https://old.ppy.sh/) to new page, and new page with new design language created by [flyte](https://osu.ppy.sh/users/3103765), lot of page and design is neither half-implemented nor not follow the new design language. Here some of them that I found and I propose the change that "maybe" can make it better for user/player experiences when using osu-web
 
 #### No preview on edit post
 
@@ -40,7 +40,11 @@ Believe it or not, that title is actually a link that redirect user to respectiv
 
 ![](img/example_hover.gif)
 
-But this one still not make it obvious that is a link, right. So my second propose is make it not a link and add a button that obviously show to user that it redirect us to another page
+But this one still not make it obvious that is a link, right? So my second propose is make it not a link and add a button that obviously show to user that it redirect us to another page
 ![](img/chrome_2019-02-13_14-16-32.png)
 
 This one I issued it on osu-web repo ([#4063](https://github.com/ppy/osu-web/issues/4063))
+
+### Video
+
+https://youtu.be/W7ZM4yRdSzM
